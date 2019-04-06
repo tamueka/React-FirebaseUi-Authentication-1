@@ -4,8 +4,8 @@ import firebase from "firebase"
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth"
 
 firebase.initializeApp({
-  apiKey: "AIzaSyDLoqcbTDMFuurtAyDgVEKZ6qwo0j0Osjk",
-  authDomain: "fir-auth-tutorial-ed11f.firebaseapp.com"
+  apiKey: "AIzaSyDZ_O9JlfkRscD8peW517i_LbTtcj7qJQg",
+  authDomain: "fir-auth-tutorial-6eb53.firebaseapp.com"
 })
 
 class App extends Component {
@@ -40,7 +40,7 @@ class App extends Component {
             <button onClick={() => firebase.auth().signOut()}>Sign out!</button>
             <h1>Welcome {firebase.auth().currentUser.displayName}</h1>
             <img
-              alt="profile picture"
+              alt=""
               src={firebase.auth().currentUser.photoURL}
             />
           </span>
